@@ -1,0 +1,38 @@
+.sidepanel {
+    position: fixed;
+    height: 340px;
+    z-index: 3;
+    top: 226px;
+    left: 35px;
+}
+.sidepanel__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidepanel__social {  
+}
+.sidepanel__link {
+    margin-top: 15px;
+}
+.facebbok {
+    margin-bottom: 15px;
+}
+.instagram {
+    margin-bottom: 15px;
+}
+.sidepanel__divider {
+    margin-top: 20px;
+    width: 2px;
+    height: 70px;
+    background-color: black;
+}
+.sidepanel__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 70px;
+    transform: rotate(-90deg);
+}

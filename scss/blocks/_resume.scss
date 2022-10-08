@@ -1,0 +1,134 @@
+
+.resume {
+    margin-bottom: 120px;
+}
+.resume__subtitle {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 49%;
+        top: -4px;
+        width: 36px;
+        height: 36px;
+        background-color: #FFA501;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}
+.resume__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+}
+.resume__lane {
+    width: 60px;
+    border: 2px solid #FFA501;
+    margin: 20px auto 60px auto;
+}
+.resume__container {
+}
+.resume__body {
+}
+.resume__rows {
+    display: flex;
+    justify-content: space-between;
+}
+.resume__column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: -17.5px;
+        top: 21px;
+        height: 340px;
+        z-index: 12;
+        border: 1px solid #000000;
+    }
+}
+.resume__descr {
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 45px;
+    margin-left: 35px;
+    &:before {
+        content: '';
+        position: absolute;
+        left: -15%;
+        top: 7px;
+        width: 15px;
+        height: 15px;
+        background-color: #FFA501;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}
+.resume__item {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+}
+.resume__head {
+    position: relative;
+    display: flex;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: -90.5px;
+        width: 73px;
+        border: 1px solid #000000;
+    }
+}
+.resume__logo {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: -82%;
+        top: -12px;
+        width: 36px;
+        height: 36px;
+        background-color: #FFA501;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}
+.resume__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.resume__name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.resume__subname {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.resume__text {
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}

@@ -1,0 +1,80 @@
+
+.price {
+    padding-top: 15px;
+    margin-bottom: 90px;
+}
+.price__subtitle {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 49%;
+        top: -4px;
+        width: 36px;
+        height: 36px;
+        background-color: #FFA501;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}
+.price__lane {
+    width: 60px;
+    border: 2px solid #FFA501;
+    margin: 31px auto 60px auto;
+}
+.price__container {
+}
+.price__body {
+    display: flex;
+    justify-content: space-between;
+}
+.price__column {
+    display: block;
+    &:nth-child(2) {
+        margin-right: 82px;
+    }
+}
+.price__item {
+    display: block;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+.price__descr {
+    display: flex;
+    justify-content: space-between;
+}
+.price__name {
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    &:before {
+        content: '';
+        position: absolute;
+        left: -25%;
+        top: 3px;
+        width: 15px;
+        height: 15px;
+        background-color: #FFA501;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}
+.price__cost {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    }
+.price__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
